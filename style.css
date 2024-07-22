@@ -18,18 +18,18 @@ h5{
 	font-size: bold;
 }
 
-h3{
-	text-align: center;
-	font-size: 4rem;
-	color: #fff;
-}
-
 img{
-margin-left: -3rem;
-display: flex;
 	
+	display: flex;
+	margin-left: -3rem;
 }
 
+h1{
+	text-align: center;
+	margin-bottom: 5rem;
+	font-size: 4rem;
+	color: white;
+}
 
 p{
 color:red;
@@ -37,8 +37,7 @@ font-size: bold;
 }
 
 span{
-	color: black;
-	t
+	color: blue;
 }
 
 .all-products{
@@ -97,4 +96,3 @@ span{
 .product a:hover{
 	transform: scale(1.1);
 }
-
