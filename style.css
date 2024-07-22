@@ -15,6 +15,9 @@ body{
     background:navy;
 }
 
+ p{
+            color: red;
+        }
 
 .all-products{
 	display: flex;
