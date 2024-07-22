@@ -20,7 +20,8 @@ h5{
 
 img{
 	
-	display: flex;
+	position: relative;
+  animation:flutuar 2s ease-in-out infinite alternate ;
 	margin-left: -4rem;
 }
 
