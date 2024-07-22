@@ -25,8 +25,11 @@ h3{
 }
 
 img{
-margin-left: 0;	
+	width: 50%;
+	display: flex;
+	margin-left: 7rem;
 }
+
 
 p{
 color:red;
