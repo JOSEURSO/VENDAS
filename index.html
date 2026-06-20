@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loja de Informática</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f5f5f5;
+    
+}
+
+/* Slider */
+.slider{
+    width:100%;
+    height:400px;
+    overflow:hidden;
+    position:relative;
+}
+
+.slides{
+    display:flex;
+    width:300%;
+    height:100%;
+    animation:slide 12s infinite;
+}
+
+img{
+    width: 100%;
+}
+
+@keyframes slide{
+    0%,30% {transform:translateX(0);}
+    35%,65% {transform:translateX(-100%);}
+    70%,100% {transform:translateX(-200%);}
+}
+
+/* Produtos */
+.titulo{
+    text-align:center;
+    margin:30px 0;
+}
+
+.produtos{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+    padding:20px;
+}
+
+.produto{
+    width:300px;
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+}
+
+.produto img{
+    width:100%;
+    height:450px;
+    object-fit:cover;
+}
+
+.info{
+    padding:15px;
+    text-align:center;
+}
+
+.preco{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color:red;
+    font-weight:bold;
+    margin:10px 0;
+}
+
+.botao{
+    display:block;
+    background:#2528d3;
+    color:white;
+    text-decoration:none;
+    padding:12px;
+    border-radius:8px;
+    margin-top:10px;
+}
+
+
+h5{
+    color: rgb(152, 153, 151);
+    font-style: italic;
+}
+
+h4{
+    color: green;
+}
+</style>
+</head>
+<body>
+
+<img src="img/689485676_26957353297265502_5688954263605581065_n.jpg" alt="">
+
+<h1  style="color: red;" class="titulo">Produtos em Destaque</h1>
+
+<div class="produtos">
+
+    <div class="produto">
+        <img src="img/i5 2.jpg" alt="Gabinete">
+        <div class="info">
+            <h2>CPU I5</h2>
+            <h5>Processador i5 2 geração</h5>
+            <h5>8GB Memória DDR3 2X4</h5>
+            <h5>Placa de Video GT710</h5>
+            <h5>HD500/GB</h5>
+            <div class="preco">R$ 1100,00
+              
+            </div>
+            
+             
+               <h4> ou em 12x sem juros de R$110,00 </h4>
+                 PIX A VISTA COM DESCONTO
+
+            <a class="botao"
+            href="https://wa.me/5517992853648?text=OL%C3%81%3F%20gostaria%20de%20saber%20mais%20sobre%20esse%20produto" target="_blank">
+            Comprar
+            </a>
+        </div>
+    </div>
+      <br>
+    <div class="produto">
+        <img src="img/ff.jpg" alt="Monitor">
+        <div class="info">
+            <h2>CPU I7 </h2>
+            <h5>Processador i7 de 3 Geração</h5>
+             <h5> 16GB de Memória DDR3 2X8</h5>
+             <h5>SSD240/GB</h5>
+            <div class="preco">R$ 1450,00</div>
+            <h4>ou em 12x sem juros de R$145,00</h4>
+             PIX A VISTA COM DESCONTO
+            <a class="botao"
+              href="https://wa.me/5517992853648?text=OL%C3%81%3F%20gostaria%20de%20saber%20mais%20sobre%20esse%20produto" target="_blank">
+            Comprar
+            </a>
+        </div>
+    </div>
+     <br>
+    <div class="produto">
+        <img src="img/fd.jpg" alt="Teclado">
+        <div class="info">
+            <h2>CPU I5</h2>
+            <h5>Processador i5 de 3 Geração</h5>
+            <h5>8GB de Memória DDR3 2X4</h5>
+            <h5>SSD240/GB</h5>
+            <div class="preco">R$ 950,00</div>
+           <h4> ou em 12x sem juros de R$95,00 </h4>
+             PIX A VISTA COM DESCONTO
+            <a class="botao"
+            href="https://wa.me/5517992853648?text=OL%C3%81%3F%20gostaria%20de%20saber%20mais%20sobre%20esse%20produto" target="_blank">
+            Comprar
+            </a>
+        </div>
+    </div>
+
+       <br>
+        <div class="produto">
+        <img src="img/WhatsApp Image 2026-06-20 at 9.38.27 AM.jpeg" alt="Gabinete">
+        <div class="info">
+            <h2>CPU I7</h2>
+            <h5>Processador i7 1 geração</h5>
+            <h5>8GB Memória DDR3 4X2</h5>
+            <h5>Placa de Video GS8400</h5>
+            <h5>HD500/GB</h5>
+            <div class="preco">R$ 750,00</div>
+             <h4> ou em 12x sem juros de R$75,00</h4>
+             PIX A VISTA COM DESCONTO
+            <a class="botao"
+            href="https://wa.me/5517992853648?text=OL%C3%81%3F%20gostaria%20de%20saber%20mais%20sobre%20esse%20produto" target="_blank">
+            Comprar
+            </a>
+        </div>
+    </div>
+
+     <br>
+      <div class="produto">
+        <img src="img/f3.jpeg" alt="Gabinete">
+        <div class="info">
+            <h2>FONTE GAMER</h2>
+            <div class="preco">R$ 200,00</div>
+             <h4> ou em 12x sem juros de R$20,00</h4>
+             PIX A VISTA COM DESCONTO
+            <a class="botao"
+            href="https://wa.me/5517992853648?text=OL%C3%81%3F%20gostaria%20de%20saber%20mais%20sobre%20esse%20produto" target="_blank">
+            Comprar
+            </a>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
